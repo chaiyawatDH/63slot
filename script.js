@@ -49,7 +49,7 @@ spinButton.addEventListener("click", () => {
 
     // Check win condition
     if (checkWin(results)) {
-        const winAmount = betAmount * 10; // Winning multiplier
+        const winAmount = betAmount * 100000; // Winning multiplier
         balance += winAmount;
         balanceDisplay.textContent = balance;
         resultMessage.textContent = `You win ${winAmount}! 🎉`;
