@@ -52,8 +52,8 @@ spinButton.addEventListener("click", () => {
         const winAmount = betAmount * 100000; // Winning multiplier
         balance += winAmount;
         balanceDisplay.textContent = balance;
-        resultMessage.textContent = `You win ${winAmount}! 🎉`;
+        resultMessage.textContent = `คุณชนะ ${winAmount}! 🎉`;
     } else {
-        resultMessage.textContent = "Better luck next time! 💔";
+        resultMessage.textContent = "ลองใหม่ได้นะ! 💔";
     }
 });
