@@ -1,5 +1,5 @@
 // Slot items (symbols)
-const symbols = ["🍀", "🔔", "💎", "7️⃣", "🍇", "🍒"];
+const symbols = ["💎", "7️⃣", "🍇", "🍒"];
 
 // Game variables
 let balance = 1000;
