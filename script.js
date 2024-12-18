@@ -3,7 +3,7 @@ const symbols = ["💎", "7️⃣", "🍇", "🍒"];
 
 // Game variables
 let balance = 1000;
-const betAmount = 5;
+const betAmount = 10;
 
 // Select DOM elements
 const spinButton = document.getElementById("spinButton");
